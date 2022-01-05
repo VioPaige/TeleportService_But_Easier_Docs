@@ -14,6 +14,10 @@ Module.IsServerPrivate()
                 public : bool   
             } (one of the bools is true, two are false, customPrivate servers are servers made in script, ownedPrivate are ones that are afforded on the roblox website)  
 
+
+
+
+
 Module.SingleTeleport()  
     - arguments required:  
         - placeid : int (place id of the place to teleport to)  
@@ -25,6 +29,10 @@ Module.SingleTeleport()
         - spawnName : string (name of the spawn the player will spawn at in the place they teleported to; only works if instanceid is provided)  
     returns:  
         - none  
+
+
+
+
 
 Module.GroupTeleport()  
     - arguments required:  
@@ -38,6 +46,10 @@ Module.GroupTeleport()
     returns:  
         - none  
 
+
+
+
+
 Module.MakePrivate()  
     - arguments required:  
         - placeid : int (place id of the place to make a private server at)  
@@ -49,6 +61,10 @@ Module.MakePrivate()
                 code : string (access code which is needed to teleport players to the private server),  
                 serverid : string (server id of the private server)  
             }  
+
+
+
+
 
 Module.TeleportToPrivate()  
     - arguments required:  
@@ -62,6 +78,10 @@ Module.TeleportToPrivate()
     - returns:  
         - none  
 
+
+
+
+
 Module.MakeAndTeleportToPrivate()  
     - arguments required:  
         - placeid : int (place id of the place to teleport to)  
@@ -72,6 +92,10 @@ Module.MakeAndTeleportToPrivate()
         - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
     - returns:  
         - none  
+
+
+
+
 
 Module.TeleportPartyAndGetServerId()  
     - arguments required:  

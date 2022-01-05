@@ -1,7 +1,7 @@
 # TeleportService_But_Easier_Docs
 
 
-Module.IsServerPrivate()
+Module.IsServerPrivate()  
     - arguments required:
         - none
     - optional arguments:

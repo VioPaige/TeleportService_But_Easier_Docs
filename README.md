@@ -1,113 +1,14 @@
-# TeleportService_But_Easier_Docs
+Hey there fellow developers!
 
-```
-Module.IsServerPrivate()  
-    - arguments required:  
-        - none  
-    - optional arguments:  
-        - none  
-    - returns:  
-        - table(dictionary):  
-            {  
-                customPrivate : bool,  
-                ownedPrivate : bool,   
-                public : bool   
-            } (one of the bools is true, two are false, customPrivate servers are servers made in script, ownedPrivate are ones that are afforded on the roblox website)  
+I’ve made a small module that can help new developers/scripters with TeleportService, as I’ve seen on multiple occasions that people are having troubles with it.
 
+How to use the module:
 
+1. Get the module (public roblox model) [here](https://www.roblox.com/library/8462256140/TeleportService-But-Easier)
+2. Insert the module in your game
+3. Require the module in a script (read this if you don’t know how 2)
+4. You can now use the functions mentioned in the docs (replace “TeleportModule” with whatever variable you stored the module      script in)
 
+If you ran into any problems, would like to make a comment, or would like to suggest an update, please let me know!
 
-
-Module.SingleTeleport()  
-    - arguments required:  
-        - placeid : int (place id of the place to teleport to)  
-        - player : player instance (player to be teleported)  
-    - optional arguments:  
-        - teleportData : teleportData (data you can retrieve at the location of teleportation)  
-        - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
-        - instanceid : int (if this is provided, the player will be teleported to the server the id belongs to, if not, the player will get teleported to a random server)  
-        - spawnName : string (name of the spawn the player will spawn at in the place they teleported to; only works if instanceid is provided)  
-    returns:  
-        - none  
-
-
-
-
-
-Module.GroupTeleport()  
-    - arguments required:  
-        - placeid : int (place id of the place to teleport to)  
-        - players : table(array) of player instances (players to be teleported)  
-    - optional arguments:  
-        - teleportData : teleportData (data you can retrieve at the location of teleportation)  
-        - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
-        - instanceid : int (if this is provided, the player will be teleported to the server the id belongs to, if not, the player will get teleported to a random server)  
-        - spawnName : string (name of the spawn the player will spawn at in the place they teleported to; only works if instanceid is provided)  
-    returns:  
-        - none  
-
-
-
-
-
-Module.MakePrivate()  
-    - arguments required:  
-        - placeid : int (place id of the place to make a private server at)  
-    - optional arguments:  
-        - none  
-    - returns:  
-        - table(dictionary):  
-            {  
-                code : string (access code which is needed to teleport players to the private server),  
-                serverid : string (server id of the private server)  
-            }  
-
-
-
-
-
-Module.TeleportToPrivate()  
-    - arguments required:  
-        - placeid : int (place id of the place to teleport to)  
-        - accessCode : string (access code to teleport user to private server (you can get this code from Module.MakePrivate()))  
-        - players : table(array) (table of players that should get teleported)  
-    - optional arguments:  
-        - spawnName : string (name of the spawn the player will spawn at in the place they teleported to; only works if instanceid is provided)  
-        - teleportData : teleportData (data you can retrieve at the location of teleportation)  
-        - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
-    - returns:  
-        - none  
-
-
-
-
-
-Module.MakeAndTeleportToPrivate()  
-    - arguments required:  
-        - placeid : int (place id of the place to teleport to)  
-        - players : table(array) (table of players that should get teleported)  
-    - optional arguments:  
-        - spawnName : string (name of the spawn the player will spawn at in the place they teleported to; only works if instanceid is provided)  
-        - teleportData : teleportData (data you can retrieve at the location of teleportation)  
-        - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
-    - returns:  
-        - none  
-
-
-
-
-
-Module.TeleportPartyAndGetServerId()  
-    - arguments required:  
-        - placeid : int (place id of the place to teleport to)  
-        - players : table(array) (table of players that should get teleported)  
-    - optional arguments:  
-        - teleportData : teleportData (data you can retrieve at the location of teleportation)  
-        - loadingScreen : GuiInstance (gui that the player can see while being teleported)  
-    - returns:  
-        - table:  
-            {  
-                serverid : string (the id of the server to which the players got teleported)  
-            }  
-  
-```
+[DevForum Post](https://devforum.roblox.com/t/teleportservice-but-easier-modulescript/1615206)

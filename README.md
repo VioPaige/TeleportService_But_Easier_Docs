@@ -1,6 +1,6 @@
 # TeleportService_But_Easier_Docs
 
-
+```
 Module.IsServerPrivate()  
     - arguments required:  
         - none  
@@ -86,3 +86,4 @@ Module.TeleportPartyAndGetServerId()
                 serverid : string (the id of the server to which the players got teleported)  
             }  
   
+```

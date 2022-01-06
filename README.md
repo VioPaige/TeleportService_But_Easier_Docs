@@ -12,3 +12,6 @@ How to use the module:
 If you ran into any problems, would like to make a comment, or would like to suggest an update, please let me know!
 
 [DevForum Post](https://devforum.roblox.com/t/teleportservice-but-easier-modulescript/1615206)
+
+
+To check API documentation for the module, check out the CODE.lua file.
